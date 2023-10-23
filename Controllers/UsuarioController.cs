@@ -42,7 +42,8 @@ namespace Exo.WebApi.Controllers
             return Ok(usuario);
         }
         // put -> /api/usuarios/{id}
-        // Atualiza.
+        // Atualizar
+
         [HttpPut("{id}")]
         public IActionResult Atualizar(int id, Usuario usuario)
         {
